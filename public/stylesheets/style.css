@@ -6,3 +6,14 @@ body {
 a {
   color: #00B7FF;
 }
+
+input, textarea {
+  font-size: 1.3em;
+  display: block;
+  margin: 10px 0;
+}
+
+.icon {
+  height: 50px;
+  border-radius: 50%;
+}

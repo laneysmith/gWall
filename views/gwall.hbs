@@ -1,3 +1,10 @@
 <h3>What's written, is written. What's not written, is not written.</h3>
 <h1>gWall.</h1>
-<p></p>
+
+<ul>
+{{#each posts}}
+  <li><img class="icon" src={{this.image}}> <b>{{this.username}}</b>: {{this.rant}}</li>
+{{/each}}
+</ul>
+
+<p><a href="/gwall/post">"Go on a rantage!" - Pawel</a></p>
